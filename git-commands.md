@@ -58,13 +58,6 @@ git checkout FEATURE_BRANCH
 git rebase --onto CORRECT_BASE_BRANCH INCORRECT_BASE_BRANCH
 ```
 
-### Rebase commits from branch_name onto master with commits at the end
-
-git checkout branch_name
-git rebase master
-git checkout master
-git merge branch
-
 
 ## Working with a forked repo
 
@@ -143,6 +136,12 @@ git rebase -i
 ```bash
 git reflog 
 git reset --hard HEAD@{5}
+```
+
+### Undoing the last local (unpushed) commit
+
+```bash
+git reset --soft HEAD~
 ```
 
 
