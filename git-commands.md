@@ -168,8 +168,7 @@ Every now and again, something goes missing. This shows changes to the local rep
 git reflog
 ```
 
-### 
-Unstage file before committing
+### Unstage file before committing
 
 ```bash
 git reset -- FILENAME
