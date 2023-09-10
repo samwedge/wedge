@@ -4,3 +4,4 @@ show_downloads: false
 show_github_badge: false
 google_analytics:
 theme: jekyll-theme-hacker
+source: pages
