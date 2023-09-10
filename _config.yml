@@ -1,5 +1,6 @@
 title: wedge
 description: A place to document things that are useful to me
 show_downloads: false
+show_github_badge: false
 google_analytics:
 theme: jekyll-theme-hacker
